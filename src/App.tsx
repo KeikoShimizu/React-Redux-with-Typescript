@@ -13,7 +13,7 @@ function App() {
   const amount = useSelector((state: State) => state.bank);
   return (
     <div className="App">
-      <h1 className="text-4xl">React Redux with Typescript</h1>
+      <h1 className="text-4xl my-5">React Redux with Typescript</h1>
       <h2 className="text-5xl font-semibold my-5">{amount}</h2>
       <div className="flex flex-row flex-wrap gap-x-2 justify-around my-5" >
         <button onClick={() => depositMoney(1000)}
